@@ -1,11 +1,13 @@
-import * as React from "react";
+/**
+ * index.js
+ * Rob Barton 2023
+ */
+
+import * as React from 'react';
+import Layout from '../components/layout';
 
 const IndexPage = () => {
-  return (
-    <main>
-      <p class="">The quick brown fox...</p>
-    </main>
-  );
+	return <Layout></Layout>;
 };
 
 export default IndexPage;
