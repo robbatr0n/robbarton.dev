@@ -13,7 +13,6 @@ tags:
   - OpenGL
 links:
   - Github
-  - www.google.com
 slug: brick-breaker
 ---
 
