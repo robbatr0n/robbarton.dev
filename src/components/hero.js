@@ -42,10 +42,12 @@ const Hero = () => {
 							<li>OpenGL</li>
 							<li>CUDA</li>
 							<li>React</li>
+							<li>Tailwind</li>
 						</ul>
 						<ul className="list-none">
 							<li className="font-bold underline">Tools & Technologies</li>
 							<li>Unity Engine</li>
+							<li>UNIX</li>
 							<li>GIT</li>
 							<li>CMake</li>
 						</ul>
