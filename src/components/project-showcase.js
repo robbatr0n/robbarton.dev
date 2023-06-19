@@ -25,7 +25,10 @@ const ProjectShowcaseSection = ({ projects, title }) => {
 		setShow((s) => !s);
 	};
 	return (
-		<section className="px-2 py-4 text-xl md:text-2xl sm:px-4 font-body">
+		<section
+			className={`px-2 py-4 text-xl  md:text-2xl sm:px-4 font-body ${
+				show ? '' : ''
+			}`}>
 			<Collapsible
 				trigger={
 					<div className="flex flex-col justify-center items-center font-bold text-center">
@@ -47,7 +50,7 @@ const ProjectShowcaseSection = ({ projects, title }) => {
 						const projectData = project.frontmatter;
 						const image = getImage(projectData.thumbnail);
 						return (
-							<div key={index} className="md:p-4 lg:p-8">
+							<div key={index} className="md:p-4">
 								<Link to={'/projects/' + projectData.slug}>
 									<GatsbyImage image={image} alt={projectData.title} />
 								</Link>
