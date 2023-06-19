@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+	/* list-style-type: none; */
+	/* background: linear-gradient(#000, #000) no-repeat center/2px 100%;
+	border: solid black 1px; */
+}
+
+.ReactCollapse--collapse {
+	transition: height 500ms;
+}

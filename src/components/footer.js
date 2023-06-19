@@ -6,9 +6,8 @@
 import * as React from 'react';
 
 const Footer = () => {
-	var currentYear = new Date().getFullYear();
 	return (
-		<footer className="px-2 py-4 bg-white border border-gray-100 md:py-8 lg:py-12 xl:py-16 font-body">
+		<footer className="px-2 py-4 bg-white border border-gray-100 md:py-8 lg:py-12 xl:py-16">
 			<div className="container flex flex-col justify-between items-center mx-auto md:flex-row">
 				<div>
 					<ul>
@@ -70,7 +69,7 @@ const Footer = () => {
 					<p>
 						designed and developed by Rob Barton
 						<span dangerouslySetInnerHTML={{ __html: '&copy; ' }} />
-						{currentYear}
+						{new Date().getFullYear()}
 					</p>
 				</div>
 			</div>

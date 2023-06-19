@@ -14,7 +14,6 @@ const Navbar = () => {
 						RB
 					</span>
 				</a>
-
 				<div className="block w-auto">
 					<ul className="flex flex-row mt-0 space-x-8 text-sm md:font-medium">
 						<li>

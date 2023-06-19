@@ -2,7 +2,7 @@
   "name": "robmakesgam.es",
   "version": "1.0.0",
   "private": true,
-  "description": "robmakesgam.es",
+  "description": "Personal portfolio built using React & Gatsby",
   "author": "Rob Barton",
   "keywords": [
     "gatsby"
@@ -15,6 +15,9 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@fontsource-variable/roboto-mono": "^5.0.4",
+    "@fontsource/courier-prime": "^5.0.3",
+    "@fontsource/nova-mono": "^5.0.3",
     "autoprefixer": "^10.4.14",
     "gatsby": "^5.11.0",
     "gatsby-plugin-image": "^3.11.0",
@@ -23,10 +26,18 @@
     "gatsby-plugin-sharp": "^5.11.0",
     "gatsby-plugin-sitemap": "^6.11.0",
     "gatsby-source-filesystem": "^5.11.0",
+    "gatsby-transformer-remark": "^6.11.0",
     "gatsby-transformer-sharp": "^5.11.0",
+    "nuka-carousel": "^6.0.3",
     "postcss": "^8.4.24",
     "react": "^18.2.0",
+    "react-collapsible": "^2.10.0",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.9.0",
     "tailwindcss": "^3.3.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9"
   }
 }
