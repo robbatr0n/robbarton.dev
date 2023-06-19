@@ -9,7 +9,7 @@ slideshowImages:
 category: 'games'
 tags:
   - C++
-  - CUDA
+  - OpenGL
 links:
   - Github
 slug: pixel-racer

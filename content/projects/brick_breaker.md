@@ -10,7 +10,7 @@ slideshowImages:
 category: 'games'
 tags:
   - C++
-  - CUDA
+  - OpenGL
 links:
   - Github
   - www.google.com
