@@ -14,7 +14,6 @@ export default function ImageSlidehow({ images }) {
 				const img = getImage(image);
 				return <GatsbyImage image={img} key={index} alt={image} />;
 			})}
-			;
 		</Carousel>
 	);
 }

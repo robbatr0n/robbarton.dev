@@ -1,7 +1,7 @@
 ---
 title: 'Pixel Racer'
 desc: 'A top down, 2D, tile based racing game'
-thumbnail: images/ppixel_racer_game.png
+thumbnail: images/pixel_racer_game.png
 slideshowImages:
   - images/pixel_racer_game.png
   - images/pixel_racer_game2.png
