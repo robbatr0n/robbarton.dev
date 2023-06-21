@@ -31,25 +31,27 @@ const Hero = () => {
 				<div className="mx-auto mb-2 max-w-none text-center prose md:prose-ul:px-4 prose-ul:p-0 prose-headings:m-2">
 					<div className="grid grid-cols-1 md:grid-cols-3">
 						<ul className="list-none">
-							<li className="font-bold underline">Programming Languages</li>
-							<li>C++</li>
-							<li>C#</li>
-							<li>Javascript</li>
-							<li>HTML & CSS</li>
+							<li className="p-0 font-bold underline">Programming Languages</li>
+							<li className="p-0">C++</li>
+							<li className="p-0">C#</li>
+							<li className="p-0">Javascript</li>
+							<li className="p-0">HTML & CSS</li>
 						</ul>
 						<ul className="list-none">
-							<li className="font-bold underline">Frameworks & Libraries</li>
-							<li>OpenGL</li>
-							<li>CUDA</li>
-							<li>React</li>
-							<li>Tailwind</li>
+							<li className="p-0 font-bold underline">
+								Frameworks & Libraries
+							</li>
+							<li className="p-0">OpenGL</li>
+							<li className="p-0">CUDA</li>
+							<li className="p-0">React</li>
+							<li className="p-0">Tailwind</li>
 						</ul>
 						<ul className="list-none">
-							<li className="font-bold underline">Tools & Technologies</li>
-							<li>Unity Engine</li>
-							<li>UNIX</li>
-							<li>GIT</li>
-							<li>CMake</li>
+							<li className="p-0 font-bold underline">Tools & Technologies</li>
+							<li className="p-0">Unity Engine</li>
+							<li className="p-0">UNIX</li>
+							<li className="p-0">GIT</li>
+							<li className="p-0">CMake</li>
 						</ul>
 					</div>
 				</div>
