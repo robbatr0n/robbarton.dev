@@ -10,6 +10,7 @@ category: 'software'
 tags:
   - C++
   - CUDA
+  - OpenGL
 links:
   - Github
 slug: real-time-ray-tracer
