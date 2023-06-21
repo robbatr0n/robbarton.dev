@@ -15,8 +15,8 @@ links:
 slug: protein-sequence-aligner
 ---
 
-Recent advancements in the field of ray tracing have made ’real-time’ ray tracing much more viable on consumer hardware.
+a web app built using React and Javascript that aligns sequences of proteins.
 
-The focus of this project was the design and implementation of a ray tracing rendering system that is capable of producing high quality, graphical scenes in real-time. This project will take advantage of the parallel capabilities of CUDA capable cards to produce scenes that incorporate lighting effects such as shadows, reflections and refractions, whilst allowing the user to interact with it in real time.
+A sequence alignment is a way of arranging the primary sequences of a protein to identify regions of similarity that may be a consequence of functional, structural, or evolutionary relationships between the sequences.
 
-The project is built using Nvidia's parralel computing platform, CUDA to rapidly generate thousands of frames of a scene which are then stitched together and presented to the user using CUDA/OpenGL Interoperability.
+The app allows the user to align sequences using either the Needleman-Wunsch algorithm or the Smith-Waterman algorithm and also contains BLOSUM62 scoring or custom scoring. The app presents the alignment score as well as the optimal alignment.
