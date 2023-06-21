@@ -15,7 +15,7 @@ links:
 slug: protein-sequence-aligner
 ---
 
-a web app built using React and Javascript that aligns sequences of proteins.
+A web app built using React and Javascript that aligns sequences of proteins.
 
 A sequence alignment is a way of arranging the primary sequences of a protein to identify regions of similarity that may be a consequence of functional, structural, or evolutionary relationships between the sequences.
 
