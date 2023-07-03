@@ -10,11 +10,13 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import Collapsible from 'react-collapsible';
 import { BiDownArrowAlt } from 'react-icons/bi';
 
-const ProjectShowcase = ({ games, software }) => {
+const ProjectShowcase = ({ games, software, prototypes, misc }) => {
 	return (
 		<>
 			<ProjectShowcaseSection projects={games.nodes} title="games" />
 			<ProjectShowcaseSection projects={software.nodes} title="software" />
+			<ProjectShowcaseSection projects={prototypes.nodes} title="prototypes" />
+			<ProjectShowcaseSection projects={misc.nodes} title="misc" />
 		</>
 	);
 };

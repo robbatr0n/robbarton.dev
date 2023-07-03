@@ -13,7 +13,12 @@ const IndexPage = ({ data }) => {
 	return (
 		<Layout>
 			<Hero />
-			<ProjectShowcase games={data.games} software={data.software} />
+			<ProjectShowcase
+				games={data.games}
+				software={data.software}
+				prototypes={data.prototypes}
+				misc={data.misc}
+			/>
 		</Layout>
 	);
 };
@@ -46,6 +51,52 @@ export const query = graphql`
 		}
 		software: allMarkdownRemark(
 			filter: { frontmatter: { category: { eq: "software" } } }
+		) {
+			nodes {
+				frontmatter {
+					desc
+					slug
+					title
+					tags
+					thumbnail {
+						childImageSharp {
+							gatsbyImageData(
+								placeholder: BLURRED
+								aspectRatio: 1.5
+								transformOptions: { fit: FILL }
+							)
+						}
+					}
+				}
+				html
+			}
+		}
+
+		prototypes: allMarkdownRemark(
+			filter: { frontmatter: { category: { eq: "prototypes" } } }
+		) {
+			nodes {
+				frontmatter {
+					desc
+					slug
+					title
+					tags
+					thumbnail {
+						childImageSharp {
+							gatsbyImageData(
+								placeholder: BLURRED
+								aspectRatio: 1.5
+								transformOptions: { fit: FILL }
+							)
+						}
+					}
+				}
+				html
+			}
+		}
+
+		misc: allMarkdownRemark(
+			filter: { frontmatter: { category: { eq: "misc" } } }
 		) {
 			nodes {
 				frontmatter {
