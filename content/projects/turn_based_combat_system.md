@@ -17,10 +17,10 @@ slug: turn-based-combat-system
 A simple turn based combat system built using Unity as a prototype for a future project.
 
 - Provides functionality for melee, ranged and magic attacks.
-- Editing various stats to change the dynakic of the battle. Including:
+- Editing various stats to change the dynamic of the battle. Including:
   - attack power
   - magic power
   - attack speed
   - range
-  - defense
-- Attack and damge animations
+  - defence
+- Attack and damage animations

@@ -15,5 +15,5 @@ slug: vector-math
 
 A vector math library built using C++. Built to be used in graphics projects.
 
-- Allows the creation of vectors of any size and type suing C++ templates.
-- Includes various vector math opertations.
+- Allows the creation of vectors of any size and type using C++ templates.
+- Includes various vector math operations.

@@ -20,6 +20,6 @@ An Atari Brick Breaker clone built using C++ and Raylib.
 
 Brick Breaker is a simple game where you have to destroy all the bricks in the level by juggling a ball without it dropping off the bottom of the screen. Alongside the standard game, this project also contains:
 
-1. A level editor to system to create an infinite number of levels.
+1. A level editor to create an infinite number of levels.
 2. A series of powerups to make the game more interesting.
-3. A leaderboard to compete againsts friends to see who can get the high score.
+3. A leaderboard to compete against friends to see who can get the high score.

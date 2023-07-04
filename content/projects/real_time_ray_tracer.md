@@ -20,4 +20,4 @@ Recent advancements in the field of ray tracing have made ’real-time’ ray tr
 
 The focus of this project was the design and implementation of a ray tracing rendering system that is capable of producing high quality, graphical scenes in real-time. This project will take advantage of the parallel capabilities of CUDA capable cards to produce scenes that incorporate lighting effects such as shadows, reflections and refractions, whilst allowing the user to interact with it in real time.
 
-The project is built using Nvidia's parralel computing platform, CUDA to rapidly generate thousands of frames of a scene which are then stitched together and presented to the user using CUDA/OpenGL Interoperability.
+The project is built using Nvidia's parallel computing platform, CUDA to rapidly generate thousands of frames of a scene which are then stitched together and presented to the user using CUDA/OpenGL Interoperability.
