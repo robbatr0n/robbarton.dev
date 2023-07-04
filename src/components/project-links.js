@@ -12,13 +12,13 @@ const ProjectLinks = ({ projectLinks, projectName }) => {
 	projectLinks.forEach(function (item, index) {
 		if (item.toLowerCase() === 'github') {
 			linkElements.push(
-				<a className="mx-2" href={buildGithubLink(projectName)}>
+				<a className="mx-2" key={index} href={buildGithubLink(projectName)}>
 					<FaGithub />
 				</a>
 			);
 		} else if (item.toLowerCase() !== 'demo') {
 			linkElements.push(
-				<a className="mx-2" href={item}>
+				<a className="mx-2" key={index} href={item}>
 					<TfiWorld />
 				</a>
 			);
