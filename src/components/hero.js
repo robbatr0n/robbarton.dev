@@ -45,6 +45,7 @@ const Hero = () => {
 						</ul>
 						<ul className="list-none">
 							<li className="p-0 font-bold underline">Tools & Technologies</li>
+							<li className="p-0">DotNet</li>
 							<li className="p-0">Unity Engine</li>
 							<li className="p-0">UNIX</li>
 							<li className="p-0">GIT</li>
