@@ -1,8 +1,3 @@
-/**
- * footer.js
- * Rob Barton 2023
- */
-
 import * as React from 'react';
 
 const Footer = () => {
@@ -13,7 +8,7 @@ const Footer = () => {
 					<ul>
 						<li className="flex items-center py-2">
 							<a
-								href="mailto:hello@robmakesgam.es"
+								href="mailto:hello@robbarton.dev"
 								className="text-gray-700 bg-transparent">
 								<svg
 									className="w-6 h-6 fill-current md:w-8 md:h-8"
@@ -23,15 +18,15 @@ const Footer = () => {
 								</svg>
 							</a>
 							<a
-								href="mailto:hello@robmakesgam.es"
+								href="mailto:hello@robbarton.dev"
 								className="text-gray-700 bg-transparent">
 								{' '}
-								<p className="ml-4">hello@robmakesgam.es</p>
+								<p className="ml-4">hello@robbarton.dev</p>
 							</a>
 						</li>
 						<li className="flex items-center py-2">
 							<a
-								href="https://github.com/robmakesgames"
+								href="https://github.com/robbatr0n "
 								className="text-gray-700 bg-transparent">
 								<svg
 									className="w-6 h-6 fill-current md:w-8 md:h-8"
@@ -41,7 +36,7 @@ const Footer = () => {
 								</svg>
 							</a>
 							<a
-								href="https://github.com/robmakesgames"
+								href="https://github.com/robbatr0n "
 								className="text-gray-700 bg-transparent">
 								<p className="ml-4">robmakesgames</p>
 							</a>

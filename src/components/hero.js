@@ -1,10 +1,5 @@
-/**
- * hero.js
- * Rob Barton 2023
- */
-
-import * as React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
+import * as React from 'react';
 
 const Hero = () => {
 	return (
@@ -25,15 +20,16 @@ const Hero = () => {
 						Rob Barton
 					</h1>
 					<h5 className="text-base md:text-lg xl:text-xl">
-						independent developer, london uk
+						developer, london uk
 					</h5>
 				</div>
 				<div className="mx-auto mb-2 max-w-none text-center prose md:prose-ul:px-4 prose-ul:p-0 prose-headings:m-2">
 					<div className="grid grid-cols-1 md:grid-cols-3">
 						<ul className="list-none">
 							<li className="p-0 font-bold underline">Programming Languages</li>
-							<li className="p-0">C++</li>
 							<li className="p-0">C#</li>
+							<li className="p-0">C++</li>
+							<li className="p-0">MSSQL</li>
 							<li className="p-0">Javascript</li>
 							<li className="p-0">HTML & CSS</li>
 						</ul>
@@ -41,6 +37,7 @@ const Hero = () => {
 							<li className="p-0 font-bold underline">
 								Frameworks & Libraries
 							</li>
+							<li className="p-0">ASP.NET</li>
 							<li className="p-0">OpenGL</li>
 							<li className="p-0">CUDA</li>
 							<li className="p-0">React</li>

@@ -1,20 +1,15 @@
-/**
- * project-showcase.js
- * Rob Barton 2023
- */
-
-import * as React from 'react';
-import { useState } from 'react';
-import { Link } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
-import Collapsible from 'react-collapsible';
 import { BiDownArrowAlt } from 'react-icons/bi';
+import Collapsible from 'react-collapsible';
+import { useState } from 'react';
+import * as React from 'react';
+import { Link } from 'gatsby';
 
 const ProjectShowcase = ({ games, software, prototypes, misc }) => {
 	return (
 		<>
-			<ProjectShowcaseSection projects={games.nodes} title="games" />
 			<ProjectShowcaseSection projects={software.nodes} title="software" />
+			<ProjectShowcaseSection projects={games.nodes} title="games" />
 			<ProjectShowcaseSection projects={prototypes.nodes} title="prototypes" />
 			<ProjectShowcaseSection projects={misc.nodes} title="misc" />
 		</>

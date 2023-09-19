@@ -1,8 +1,3 @@
-/**
- * navbar.js
- * Rob Barton 2023
- */
-
 import * as React from 'react';
 
 const Navbar = () => {
@@ -18,7 +13,7 @@ const Navbar = () => {
 					<ul className="flex flex-row mt-0 space-x-8 text-sm md:font-medium">
 						<li>
 							<a
-								href="mailto:hello@robmakesgam.es"
+								href="mailto:hello@robbarton.dev"
 								aria-label="email"
 								className="block text-gray-700 bg-transparent">
 								<svg
@@ -31,7 +26,7 @@ const Navbar = () => {
 						</li>
 						<li>
 							<a
-								href="https://github.com/robmakesgames"
+								href="https://github.com/robbatr0n "
 								aria-label="github"
 								className="block text-gray-700 bg-transparent">
 								<svg
