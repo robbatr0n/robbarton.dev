@@ -38,7 +38,7 @@ const Footer = () => {
 							<a
 								href="https://github.com/robbatr0n "
 								className="text-gray-700 bg-transparent">
-								<p className="ml-4">robmakesgames</p>
+								<p className="ml-4">robbatr0n</p>
 							</a>
 						</li>
 						<li className="flex items-center py-2">
