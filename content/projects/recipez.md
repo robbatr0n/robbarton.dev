@@ -24,7 +24,7 @@ Built on ASP.NET with a SQL database, Entity Framework and a React based front-e
 Features Include:
 
 1. Ability to post and share recipes to the world
-2. View, comment and like users recipes
-3. Follow posters to keep up to date with their content
+2. View, comment and like users' recipes
+3. Follow users to keep up to date with their content
 4. Filter recipes to find exactly what you're looking for
 5. Create a personal profile
