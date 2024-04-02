@@ -13,6 +13,7 @@ tags:
   - React
 links:
   - Github
+  - https://guess-the-player-blue.vercel.app/
 slug: guess-the-player
 ---
 
