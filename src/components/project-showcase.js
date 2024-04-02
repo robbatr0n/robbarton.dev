@@ -28,7 +28,7 @@ const ProjectShowcaseSection = ({ projects, title }) => {
 			}`}>
 			<Collapsible
 				trigger={
-					<div className="flex flex-col justify-center items-center font-bold text-center">
+					<div className="flex underline flex-col justify-center items-center font-bold text-center">
 						{title}
 						{show ? (
 							<BiDownArrowAlt
@@ -60,7 +60,7 @@ const ProjectShowcaseSection = ({ projects, title }) => {
 												{projectData.tags.map((tag, index) => {
 													return (
 														<li
-															className="inline-flex items-center px-3 py-1 mx-2 my-4 text-xs font-bold rounded-full border leading-sm"
+															className="inline-flex items-center px-4 py-2 mx-2 my-4 text-xs font-bold rounded-full border leading-sm"
 															key={index}>
 															{tag}
 														</li>
