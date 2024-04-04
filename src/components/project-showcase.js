@@ -17,7 +17,7 @@ const ProjectShowcase = ({ games, software, prototypes, misc }) => {
 };
 
 const ProjectShowcaseSection = ({ projects, title }) => {
-	const [show, setShow] = useState(false);
+	const [show, setShow] = useState(true);
 	const handleClick = () => {
 		setShow((s) => !s);
 	};
@@ -27,10 +27,11 @@ const ProjectShowcaseSection = ({ projects, title }) => {
 				show ? '' : ''
 			}`}>
 			<Collapsible
+				open={true}
 				trigger={
-					<div className="flex underline flex-col justify-center items-center font-bold text-center">
+					<div className="flex flex-col justify-center items-center font-bold text-center underline">
 						{title}
-						{show ? (
+						{!show ? (
 							<BiDownArrowAlt
 								className="mb-4 text-center xl:mt-2"
 								style={{ transform: 'rotate(180deg)' }}
@@ -40,8 +41,8 @@ const ProjectShowcaseSection = ({ projects, title }) => {
 						)}
 					</div>
 				}
-				onOpening={() => handleClick(true)}
-				onClosing={() => handleClick(false)}>
+				onOpening={() => handleClick()}
+				onClosing={() => handleClick()}>
 				<div className="grid grid-cols-1 md:grid-cols-3">
 					{projects.map((project, index) => {
 						const projectData = project.frontmatter;
